@@ -51,4 +51,6 @@ fi
 setxkbmap -option grp:alt_shift_toggle us,ru
 picom --config ~/.config/picom/picom.conf &
 xsetroot -cursor_name left_ptr
+xset s off
+xset r rate 300 50
 exec bspwm
